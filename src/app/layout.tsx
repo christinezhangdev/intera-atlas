@@ -20,8 +20,12 @@ export const metadata: Metadata = {
   description:
     "The verified org graph for clinical research — find who should meet for the next trial.",
   icons: {
-    icon: [{ url: "/atlas-mark.png", type: "image/png" }],
-    apple: [{ url: "/atlas-mark.png" }],
+    icon: [
+      { url: "/favicon-64.png", sizes: "64x64", type: "image/png" },
+      { url: "/atlas-mark.png", type: "image/png" },
+    ],
+    shortcut: "/favicon-64.png",
+    apple: [{ url: "/atlas-mark.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
