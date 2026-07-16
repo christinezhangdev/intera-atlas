@@ -1,0 +1,36 @@
+{
+  "name": "intera-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ingest": "node scripts/ingest-sites.mjs",
+    "predev": "npm run ingest",
+    "dev": "next dev",
+    "prebuild": "npm run ingest",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.6",
+    "mammoth": "^1.12.0",
+    "next": "16.2.10",
+    "openai": "^6.47.0",
+    "papaparse": "^5.5.4",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
