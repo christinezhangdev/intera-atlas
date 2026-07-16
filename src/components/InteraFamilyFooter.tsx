@@ -7,9 +7,9 @@ import { TryInteraMark } from "@/components/TryInteraMark";
 
 /**
  * Intera product map:
- *   tryintera.com        → company / thesis / products
  *   atlas.tryintera.com  → site graph, sponsor profiles, protocol matching
  *   thetrialpath.com     → patients finding trials
+ *   tryintera.com        → AI coordinator for clinical trials
  */
 const FAMILY = [
   {
@@ -34,7 +34,7 @@ const FAMILY = [
     name: "TryIntera",
     href: "https://tryintera.com",
     domain: "tryintera.com",
-    line: "Company, thesis, and products.",
+    line: "AI coordinator for clinical trials.",
     external: true,
     current: false,
     mark: "tryintera" as const,
@@ -75,11 +75,11 @@ export function InteraFamilyFooter() {
               Healthcare should move at the speed of care.
             </p>
             <p className="mt-2 max-w-sm text-[13px] leading-relaxed text-[var(--muted)]">
-              Company, thesis, and products.
+              Patient demand · site selection · recruitment coordination.
             </p>
           </div>
           <p className="max-w-xs text-[12px] leading-relaxed text-[var(--muted)] sm:text-right">
-            Patient demand · site selection · recruitment coordination — one pipeline.
+            Three products. One pipeline.
           </p>
         </div>
 
