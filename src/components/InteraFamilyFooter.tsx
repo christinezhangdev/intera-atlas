@@ -9,8 +9,7 @@ import { TryInteraMark } from "@/components/TryInteraMark";
  * Intera product map:
  *   tryintera.com        → company / thesis / products
  *   atlas.tryintera.com  → site graph, sponsor profiles, protocol matching
- *   trialpath.com        → patients finding trials
- *   patients-brown.vercel.app → AI screener / coordinator (this consumer site)
+ *   thetrialpath.com     → patients finding trials
  */
 const FAMILY = [
   {
@@ -24,8 +23,8 @@ const FAMILY = [
   },
   {
     name: "TrialPath",
-    href: "https://trialpath.com",
-    domain: "trialpath.com",
+    href: "https://thetrialpath.com",
+    domain: "thetrialpath.com",
     line: "Patients finding trials.",
     external: true,
     current: false,
@@ -33,9 +32,9 @@ const FAMILY = [
   },
   {
     name: "TryIntera",
-    href: "https://patients-brown.vercel.app",
-    domain: "patients-brown.vercel.app",
-    line: "AI screener and patient coordination.",
+    href: "https://tryintera.com",
+    domain: "tryintera.com",
+    line: "Company, thesis, and products.",
     external: true,
     current: false,
     mark: "tryintera" as const,
