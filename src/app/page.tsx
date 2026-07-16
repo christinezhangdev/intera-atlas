@@ -51,10 +51,6 @@ export default function HomePage() {
               {meta.total.toLocaleString()} U.S. sites · {meta.scored.toLocaleString()} quality-scored
               · observed history stays Intera-owned
             </p>
-            <p className="mt-2 max-w-xl text-[12px] leading-relaxed text-[var(--muted)]">
-              Built alongside clinical research sites, sponsors, and CROs. Now onboarding pilot
-              partners.
-            </p>
           </div>
           <HeroConnectionPreview />
         </div>
