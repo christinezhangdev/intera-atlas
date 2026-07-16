@@ -22,7 +22,7 @@ export default function HomePage() {
               </p>
             </div>
             <h1 className="mt-4 max-w-xl text-[32px] font-semibold leading-[1.12] tracking-tight sm:text-[40px]">
-              Find who should meet for the next trial.
+              Match each protocol to the right sites and sponsors.
             </h1>
             <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-[var(--muted)]">
               Atlas combines observed trial history with verified organization signals — capacity,
